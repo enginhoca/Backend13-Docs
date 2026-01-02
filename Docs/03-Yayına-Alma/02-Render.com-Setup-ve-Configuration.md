@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Render.com Setup ve Configuration
+order: 2
+bolum: 3
+---
+
 # Render.com Setup ve Configuration
 ## ECommerce API - Yayına Alma
 

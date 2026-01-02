@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Caching Stratejileri
+order: 2
+bolum: 2
+---
+
 # Caching Stratejileri
 ## ECommerce API - Performans
 

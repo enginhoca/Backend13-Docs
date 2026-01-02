@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Global Exception Handling
+order: 6
+bolum: 1
+---
+
 # Global Exception Handling
 ## ECommerce API - Güvenlik
 

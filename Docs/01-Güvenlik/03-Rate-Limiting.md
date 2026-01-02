@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Rate Limiting
+order: 3
+bolum: 1
+---
+
 # Rate Limiting
 ## ECommerce API - Güvenlik
 

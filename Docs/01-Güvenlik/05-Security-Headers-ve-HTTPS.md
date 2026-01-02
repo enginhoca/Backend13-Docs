@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Security Headers ve HTTPS
+order: 5
+bolum: 1
+---
+
 # Security Headers ve HTTPS
 ## ECommerce API - Güvenlik
 

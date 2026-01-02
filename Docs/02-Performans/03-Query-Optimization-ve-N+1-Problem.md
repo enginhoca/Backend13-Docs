@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Query Optimization ve N+1 Problem
+order: 3
+bolum: 2
+---
+
 # Query Optimization ve N+1 Problem
 ## ECommerce API - Performans
 

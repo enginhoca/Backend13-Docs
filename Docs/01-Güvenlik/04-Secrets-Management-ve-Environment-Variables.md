@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Secrets Management ve Environment Variables
+order: 4
+bolum: 1
+---
+
 # Secrets Management ve Environment Variables
 ## ECommerce API - Güvenlik
 

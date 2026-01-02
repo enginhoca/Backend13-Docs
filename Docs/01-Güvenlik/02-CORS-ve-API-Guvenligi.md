@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: CORS ve API Güvenliği
+order: 2
+bolum: 1
+---
+
 # CORS ve API Güvenliği
 ## ECommerce API - Güvenlik
 

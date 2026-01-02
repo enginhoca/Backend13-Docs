@@ -1,0 +1,12 @@
+title: Performans-Güvenlik-Yayına Alma
+description: Acunmedya Akademi 13.Dönem Backend Sınıfı için hazırlanmıştır
+theme: minima
+
+markdown: kramdown
+
+collections:
+  bolumler:
+    output: true
+
+include:
+  - docs

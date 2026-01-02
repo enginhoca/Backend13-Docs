@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Production Configuration ve Optimization
+order: 3
+bolum: 3
+---
+
 # Production Configuration ve Optimization
 ## ECommerce API - Yayına Alma
 

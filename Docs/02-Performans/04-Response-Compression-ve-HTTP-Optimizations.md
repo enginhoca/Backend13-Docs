@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Response Compression ve HTTP Optimizations
+order: 4
+bolum: 2
+---
+
 # Response Compression ve HTTP Optimizations
 ## ECommerce API - Performans
 

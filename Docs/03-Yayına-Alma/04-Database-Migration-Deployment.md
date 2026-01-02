@@ -1,3 +1,10 @@
+# ---
+layout: page
+title: Database Migration Deployment
+order: 4
+bolum: 3
+---
+
 # Database Migration Deployment
 ## ECommerce API - Yayına Alma
 
