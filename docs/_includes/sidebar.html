@@ -1,12 +1,37 @@
-<h3>Dersler</h3>
+<h3>İçindekiler</h3>
 
 <ul>
-    {% assign pages = site.pages | sort: "order" %}
-    {% for p in pages %}
-    {% if p.bolum %}
+    <li>
+        <a href="{{ '/' | relative_url }}">Ana Sayfa</a>
+    </li>
+</ul>
+
+<h4>Bölüm 1: Güvenlik</h4>
+<ul>
+    {% assign guvenlik_pages = site.pages | where: "bolum", 1 | sort: "order" %}
+    {% for p in guvenlik_pages %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
-    {% endif %}
+    {% endfor %}
+</ul>
+
+<h4>Bölüm 2: Performans</h4>
+<ul>
+    {% assign performans_pages = site.pages | where: "bolum", 2 | sort: "order" %}
+    {% for p in performans_pages %}
+    <li>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<h4>Bölüm 3: Yayına Alma</h4>
+<ul>
+    {% assign yayin_pages = site.pages | where: "bolum", 3 | sort: "order" %}
+    {% for p in yayin_pages %}
+    <li>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </li>
     {% endfor %}
 </ul>
