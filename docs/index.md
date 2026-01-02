@@ -7,7 +7,7 @@ title: Backend 13 Sınıfı – Performans, Güvenlik ve Yayına Alma Notları
 
 Bu site Acunmedya Akademi 13.Dönem Backend Sınıfı için Engin Niyazi Ergül tarafından Performans, Güvenlik ve Yayına Alma konuları için hazırlanan ders notlarını içermektedir.
 
-Soldaki menüden bölümleri takip edebilirsiniz.
+Soldaki menüden ya da aşağıdan bölümleri takip edebilirsiniz.
 
 ---
 
