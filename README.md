@@ -1,4 +1,4 @@
-# ECommerce API - Ders Dokümantasyonları
+# ECommerce API - Dersleri
 
 Bu klasör, ECommerce API projesi üzerinde **Güvenlik**, **Performans** ve **Yayına Alma** konularını içeren dokümantasyonları içerir.
 
