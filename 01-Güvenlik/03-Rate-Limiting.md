@@ -1,8 +1,5 @@
 # Rate Limiting
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta  
-**Hedef:** API endpoint'lerine rate limiting uygulama
+## ECommerce API - Güvenlik
 
 ---
 

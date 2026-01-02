@@ -1,8 +1,5 @@
 # CORS ve API Güvenliği
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta  
-**Hedef:** CORS yapılandırması ve API güvenliği uygulama
+## ECommerce API - Güvenlik
 
 ---
 

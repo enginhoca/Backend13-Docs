@@ -1,8 +1,5 @@
 # Pagination ve Sayfalama
-## ECommerce API - Performans Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Büyük veri setlerini sayfalama ile optimize etme
+## ECommerce API - Performans
 
 ---
 

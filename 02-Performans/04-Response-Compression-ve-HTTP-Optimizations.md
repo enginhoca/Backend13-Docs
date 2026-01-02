@@ -1,8 +1,5 @@
 # Response Compression ve HTTP Optimizations
-## ECommerce API - Performans Dersleri
-
-**Seviye:** Orta  
-**Hedef:** HTTP response'ları sıkıştırma ve optimize etme
+## ECommerce API - Performans
 
 ---
 

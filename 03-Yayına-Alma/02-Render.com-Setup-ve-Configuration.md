@@ -1,8 +1,5 @@
 # Render.com Setup ve Configuration
-## ECommerce API - Yayına Alma Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Render.com'da deployment
+## ECommerce API - Yayına Alma
 
 ---
 

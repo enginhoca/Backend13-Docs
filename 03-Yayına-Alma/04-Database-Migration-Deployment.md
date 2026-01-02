@@ -1,8 +1,5 @@
 # Database Migration Deployment
-## ECommerce API - Yayına Alma Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Production'da migration çalıştırma
+## ECommerce API - Yayına Alma
 
 ---
 

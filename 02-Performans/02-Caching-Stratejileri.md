@@ -1,8 +1,5 @@
 # Caching Stratejileri
-## ECommerce API - Performans Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Sık kullanılan verileri cache'leme
+## ECommerce API - Performans
 
 ---
 

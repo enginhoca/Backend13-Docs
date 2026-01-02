@@ -1,8 +1,5 @@
 # Production Configuration ve Optimization
-## ECommerce API - Yayına Alma Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Production ortamı için optimizasyon
+## ECommerce API - Yayına Alma
 
 ---
 

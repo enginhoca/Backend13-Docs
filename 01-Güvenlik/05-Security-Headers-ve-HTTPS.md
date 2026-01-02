@@ -1,8 +1,5 @@
 # Security Headers ve HTTPS
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Security header'ları ve HTTPS yapılandırması
+## ECommerce API - Güvenlik
 
 ---
 

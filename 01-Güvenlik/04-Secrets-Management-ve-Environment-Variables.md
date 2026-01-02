@@ -1,8 +1,5 @@
 # Secrets Management ve Environment Variables
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Hassas verileri güvenli şekilde yönetme
+## ECommerce API - Güvenlik
 
 ---
 

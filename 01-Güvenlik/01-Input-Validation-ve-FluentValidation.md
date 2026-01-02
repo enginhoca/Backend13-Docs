@@ -1,8 +1,5 @@
 # Input Validation ve FluentValidation
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta  
-**Hedef:** FluentValidation kullanarak güvenli input validation uygulama
+## ECommerce API - Güvenlik
 
 ---
 

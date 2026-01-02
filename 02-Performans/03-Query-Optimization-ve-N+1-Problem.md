@@ -1,8 +1,5 @@
 # Query Optimization ve N+1 Problem
-## ECommerce API - Performans Dersleri
-
-**Seviye:** İleri  
-**Hedef:** Veritabanı sorgularını optimize etme
+## ECommerce API - Performans
 
 ---
 

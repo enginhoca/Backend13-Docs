@@ -1,8 +1,5 @@
 # Containerization ve Docker
-## ECommerce API - Yayına Alma Dersleri
-
-**Seviye:** Orta  
-**Hedef:** Docker ile containerization
+## ECommerce API - Yayına Alma
 
 ---
 

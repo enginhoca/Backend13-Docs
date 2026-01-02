@@ -1,8 +1,5 @@
 # Global Exception Handling
-## ECommerce API - Güvenlik Dersleri
-
-**Seviye:** Orta-İleri  
-**Hedef:** Tüm exception'ları merkezi olarak yönetme
+## ECommerce API - Güvenlik
 
 ---
 
