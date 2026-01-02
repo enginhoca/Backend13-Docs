@@ -10,9 +10,11 @@
 <ul>
     {% assign guvenlik_pages = site.pages | where: "bolum", 1 | sort: "order" %}
     {% for p in guvenlik_pages %}
+    {% unless p.order == 0 %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
+    {% endunless %}
     {% endfor %}
 </ul>
 
@@ -20,9 +22,11 @@
 <ul>
     {% assign performans_pages = site.pages | where: "bolum", 2 | sort: "order" %}
     {% for p in performans_pages %}
+    {% unless p.order == 0 %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
+    {% endunless %}
     {% endfor %}
 </ul>
 
@@ -30,8 +34,10 @@
 <ul>
     {% assign yayin_pages = site.pages | where: "bolum", 3 | sort: "order" %}
     {% for p in yayin_pages %}
+    {% unless p.order == 0 %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
+    {% endunless %}
     {% endfor %}
 </ul>

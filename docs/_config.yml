@@ -11,6 +11,16 @@ url: "https://enginhoca.github.io"
 markdown: kramdown
 highlighter: rouge
 
+# Kramdown ayarları (anchor linkler için)
+kramdown:
+  auto_ids: true
+  header_offset: 0
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+  gfm_quirks: ['paragraph_end']
+
 # Collections (şu an kullanılmıyor ama gelecekte kullanılabilir)
 collections:
   bolumler:

@@ -1,4 +1,4 @@
-# ---
+---
 layout: page
 title: Query Optimization ve N+1 Problem
 order: 3
