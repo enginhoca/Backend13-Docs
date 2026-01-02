@@ -1,8 +1,12 @@
-<nav>
+<h3>Dersler</h3>
+
+<ul>
     {% assign pages = site.pages | sort: "order" %}
-    {% for page in pages %}
-    {% if page.bolum %}
-    <a href="{{ page.url }}">{{ page.title }}</a><br />
+    {% for p in pages %}
+    {% if p.bolum %}
+    <li>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </li>
     {% endif %}
     {% endfor %}
-</nav>
+</ul>
