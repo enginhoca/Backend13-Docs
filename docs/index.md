@@ -13,26 +13,24 @@ Soldaki menüden ya da aşağıdan bölümleri takip edebilirsiniz.
 
 ## 📚 Bölümlere Git
 
-### 🔒 [Bölüm 1: Güvenlik](./01-Güvenlik/)
+<div class="section-cards">
 
-Bu bölümde API güvenliği ve uygulama seviyesinde alınması gereken önlemleri ele alıyoruz. İçerik: input validation ve FluentValidation, CORS ve API erişim kontrolleri, rate limiting, secrets management ve environment variables, security headers ve HTTPS, global exception handling gibi kritik konulara odaklanır.
+<div class="section-card">
+<h3>🔒 <a href="./01-Güvenlik/">Bölüm 1: Güvenlik</a></h3>
+<p>Bu bölümde API güvenliği ve uygulama seviyesinde alınması gereken önlemleri ele alıyoruz. İçerik: input validation ve FluentValidation, CORS ve API erişim kontrolleri, rate limiting, secrets management ve environment variables, security headers ve HTTPS, global exception handling gibi kritik konulara odaklanır.</p>
+<a href="./01-Güvenlik/" class="card-link">📖 Bölüm 1'e Git →</a>
+</div>
 
-**[📖 Bölüm 1'e Git →](./01-Güvenlik/)**
+<div class="section-card">
+<h3>⚡ <a href="./02-Performans/">Bölüm 2: Performans</a></h3>
+<p>Bu bölümde uygulama performansını artırmaya yönelik yaklaşımlar ve teknikler yer alır. Konular: pagination ve sayfalama, önbellekleme stratejileri, sorgu optimizasyonları ve N+1 problemi, response compression ve diğer HTTP optimizasyonları.</p>
+<a href="./02-Performans/" class="card-link">📖 Bölüm 2'ye Git →</a>
+</div>
 
----
+<div class="section-card">
+<h3>🚀 <a href="./03-Yayına-Alma/">Bölüm 3: Yayına Alma</a></h3>
+<p>Bu bölümde projeyi üretim ortamına taşıma ve sürdürülebilir dağıtım süreçleri ele alınır. Konular: containerization ve Docker, Render.com veya benzeri platform konfigürasyonları, production configuration ve optimizasyon, database migration ve deployment stratejileri.</p>
+<a href="./03-Yayına-Alma/" class="card-link">📖 Bölüm 3'e Git →</a>
+</div>
 
-### ⚡ [Bölüm 2: Performans](./02-Performans/)
-
-Bu bölümde uygulama performansını artırmaya yönelik yaklaşımlar ve teknikler yer alır. Konular: pagination ve sayfalama, önbellekleme stratejileri, sorgu optimizasyonları ve N+1 problemi, response compression ve diğer HTTP optimizasyonları.
-
-**[📖 Bölüm 2'ye Git →](./02-Performans/)**
-
----
-
-### 🚀 [Bölüm 3: Yayına Alma](./03-Yayına-Alma/)
-
-Bu bölümde projeyi üretim ortamına taşıma ve sürdürülebilir dağıtım süreçleri ele alınır. Konular: containerization ve Docker, Render.com veya benzeri platform konfigürasyonları, production configuration ve optimizasyon, database migration ve deployment stratejileri.
-
-**[📖 Bölüm 3'e Git →](./03-Yayına-Alma/)**
-
----
+</div>

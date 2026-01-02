@@ -68,7 +68,8 @@ body {
 .content {
     margin-left: 250px;
     padding: 40px;
-    /* max-width: 900px; */
+    width: calc(100% - 250px);
+    max-width: none;
     flex: 1;
 }
 
@@ -108,7 +109,8 @@ body {
     margin-bottom: 15px;
 }
 
-.content ul, .content ol {
+.content ul,
+.content ol {
     margin-left: 20px;
     margin-bottom: 15px;
 }
@@ -173,15 +175,125 @@ body {
     margin: 30px 0;
 }
 
+/* Kart görünümü için bölüm kartları */
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.section-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.section-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    border-color: #3498db;
+}
+
+.section-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #2c3e50;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.section-card h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.section-card h3 a:hover {
+    color: #3498db;
+}
+
+.section-card p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.section-card .card-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.section-card .card-link:hover {
+    background: #2980b9;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Bölüm 1 kartı - Güvenlik */
+.section-card:nth-child(1) {
+    border-left: 4px solid #e74c3c;
+}
+
+.section-card:nth-child(1) .card-link {
+    background: #e74c3c;
+}
+
+.section-card:nth-child(1) .card-link:hover {
+    background: #c0392b;
+}
+
+/* Bölüm 2 kartı - Performans */
+.section-card:nth-child(2) {
+    border-left: 4px solid #f39c12;
+}
+
+.section-card:nth-child(2) .card-link {
+    background: #f39c12;
+}
+
+.section-card:nth-child(2) .card-link:hover {
+    background: #e67e22;
+}
+
+/* Bölüm 3 kartı - Yayına Alma */
+.section-card:nth-child(3) {
+    border-left: 4px solid #27ae60;
+}
+
+.section-card:nth-child(3) .card-link {
+    background: #27ae60;
+}
+
+.section-card:nth-child(3) .card-link:hover {
+    background: #229954;
+}
+
 /* Responsive tasarım */
 @media (max-width: 768px) {
     .sidebar {
         width: 200px;
     }
-    
+
     .content {
         margin-left: 200px;
+        width: calc(100% - 200px);
         padding: 20px;
+    }
+
+    .section-cards {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -189,17 +301,16 @@ body {
     .layout {
         flex-direction: column;
     }
-    
+
     .sidebar {
         position: relative;
         width: 100%;
         height: auto;
         max-height: 300px;
     }
-    
+
     .content {
         margin-left: 0;
         padding: 20px;
     }
 }
-
