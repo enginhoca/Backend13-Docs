@@ -2,10 +2,10 @@ title: Performans-Güvenlik-Yayına Alma
 description: Acunmedya Akademi 13.Dönem Backend Sınıfı için hazırlanmıştır
 
 # GitHub Pages için gerekli ayarlar
-# Repository adınızı buraya yazın (örn: "/backend13-docs" veya boş bırakın)
-baseurl: ""
-# GitHub Pages URL'iniz (örn: "https://username.github.io")
-url: "/backend13-docs"
+# Repository adınızı buraya yazın (repository adı Backend13-Docs ise)
+baseurl: "/Backend13-Docs"
+# GitHub Pages URL'iniz (base domain)
+url: "https://enginhoca.github.io"
 
 # Jekyll ayarları
 markdown: kramdown

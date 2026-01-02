@@ -1,16 +1,15 @@
 source "https://rubygems.org"
 
-# Jekyll ve GitHub Pages için gerekli gem'ler
-gem "jekyll", "~> 4.3"
+# GitHub Pages gem'i Jekyll'i de içerir, ayrıca Jekyll belirtmeyin
 gem "github-pages", group: :jekyll_plugins
 
-# Jekyll plugins
+# Jekyll plugins (github-pages ile uyumlu versiyonlar)
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-sitemap"
 
-# Markdown işleme
+# Markdown işleme (github-pages zaten kramdown içerir, ama gfm parser için)
 gem "kramdown-parser-gfm"
 
-# Syntax highlighting
+# Syntax highlighting (github-pages zaten rouge içerir, ama belirtmekte sorun yok)
 gem "rouge"
 
