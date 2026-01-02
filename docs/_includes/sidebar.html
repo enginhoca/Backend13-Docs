@@ -10,7 +10,8 @@
 <ul>
     {% assign guvenlik_pages = site.pages | where: "bolum", 1 | sort: "order" %}
     {% for p in guvenlik_pages %}
-    {% unless p.order == 0 %}
+    {% assign page_basename = p.path | split: '/' | last | split: '.' | first %}
+    {% unless page_basename == 'index' or p.order == 0 or p.url contains '/index.html' %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
@@ -22,7 +23,8 @@
 <ul>
     {% assign performans_pages = site.pages | where: "bolum", 2 | sort: "order" %}
     {% for p in performans_pages %}
-    {% unless p.order == 0 %}
+    {% assign page_basename = p.path | split: '/' | last | split: '.' | first %}
+    {% unless page_basename == 'index' or p.order == 0 or p.url contains '/index.html' %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>
@@ -34,7 +36,8 @@
 <ul>
     {% assign yayin_pages = site.pages | where: "bolum", 3 | sort: "order" %}
     {% for p in yayin_pages %}
-    {% unless p.order == 0 %}
+    {% assign page_basename = p.path | split: '/' | last | split: '.' | first %}
+    {% unless page_basename == 'index' or p.order == 0 or p.url contains '/index.html' %}
     <li>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </li>

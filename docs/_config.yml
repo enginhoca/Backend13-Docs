@@ -20,6 +20,8 @@ kramdown:
     block:
       line_numbers: false
   gfm_quirks: ['paragraph_end']
+  entity_output: as_char
+  toc_levels: 1..6
 
 # Collections (şu an kullanılmıyor ama gelecekte kullanılabilir)
 collections:
